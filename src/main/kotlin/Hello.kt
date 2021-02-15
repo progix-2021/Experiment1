@@ -1,7 +1,7 @@
 package hello
 
 fun getHelloString() : String {
-    return "Hello, world!"
+    return "Hello, world and universe !"
 }
 
 fun main(args : Array<String>) {
