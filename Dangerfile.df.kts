@@ -42,7 +42,7 @@ danger(args) {
         }.forEach {
             // Using apache commons-text dependency to be sure the dependency resolution always works
             warn(WordUtils.capitalize("please consider to create new files in Kotlin"), it, 1)
-            markdown("# This is a bold comment",it,1)
+            markdown("*This is a bold comment*",it,1)
         }
     }
 }
