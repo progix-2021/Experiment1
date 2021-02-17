@@ -2,7 +2,7 @@ name: Danger KT
 on: [pull_request]
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     name: "Run Danger"
     steps:
       - uses: actions/checkout@v1
