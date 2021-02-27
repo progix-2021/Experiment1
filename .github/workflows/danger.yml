@@ -1,0 +1,12 @@
+name: Danger KT
+on: [pull_request]
+jobs:
+  build:
+    runs-on: self-hosted
+    name: "Run Danger"
+    steps:
+      - uses: actions/checkout@v1
+      - name: Danger
+        uses: progix-2021/KTDanger@v0.12
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

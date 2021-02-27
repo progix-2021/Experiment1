@@ -1,10 +1,10 @@
-package hello
+package hello 
 
-fun getHelloString() : String {
-    return "Hello, world and universe !"
-}
+fun getHelloString() : String { 
+    return "Hello, world and universe !" 
+} 
 
-fun main(args : Array<String>) {
-    println(getHelloString())
-}
-
+fun main(args : Array<String>)  {
+    println(getHelloString()) 
+} 
+ 
